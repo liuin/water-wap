@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="theme-color" content="#2196f3">
@@ -174,6 +175,7 @@
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                   <div class="category">
+                    
                                     <a href="#" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/food.png" />
                     <span class="txt">美食</span>
@@ -304,7 +306,159 @@
                 </div>
               </div>
 
+              <div class="box1 bdbottom">
+                <div class="hd bdbottom">活动结集号</div>
+                <div data-paginationHide="true" data-slidesPerView="4" data-grabCursor="true" class="swiper-container swiper-init ks-demo-slider swiper-c3">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide "><div class="list-jjh">
+                      <div class="item">
+                        <div class="img">
+                          <img src="http://mall.bydauto.com.cn/media/wysiwyg/1215/_237x255.jpg" class="" alt="...">
+                        </div>
+                        <div class="txt">东莞自驾游</div>
+                        <div class="date">2014-08-03</div>
+                        <a href="#" class="button button-fill color-blue">我要报名</a>
+                      </div>
+                      <div class="item">
+                        <div class="img">
+                          <img src="http://mall.bydauto.com.cn/media/wysiwyg/1215/_237x255.jpg" class="" alt="...">
+                        </div>
+                        <div class="txt">东莞自驾游</div>
+                        <div class="date">2014-08-03</div>
+                        <a href="#" class="button button-fill color-blue">我要报名</a>
+                      </div>
+                      <div class="item">
+                        <div class="img">
+                          <img src="http://mall.bydauto.com.cn/media/wysiwyg/1215/_237x255.jpg" class="" alt="...">
+                        </div>
+                        <div class="txt">东莞自驾游</div>
+                        <div class="date">2014-08-03</div>
+                        <a href="#" class="button button-fill color-blue">我要报名</a>
+                      </div>
+                    </div></div>
+                  <div class="swiper-slide "><div class="list-jjh">
+                      <div class="item">
+                        <div class="img">
+                          <img src="http://mall.bydauto.com.cn/media/wysiwyg/1215/_237x255.jpg" class="" alt="...">
+                        </div>
+                        <div class="txt">东莞自驾游</div>
+                        <div class="date">2014-08-03</div>
+                        <a href="#" class="button button-fill color-blue">我要报名</a>
+                      </div>
+                      <div class="item">
+                        <div class="img">
+                          <img src="http://mall.bydauto.com.cn/media/wysiwyg/1215/_237x255.jpg" class="" alt="...">
+                        </div>
+                        <div class="txt">东莞自驾游</div>
+                        <div class="date">2014-08-03</div>
+                        <a href="#" class="button button-fill color-blue">我要报名</a>
+                      </div>                    
+                      <div class="item">
+                        <div class="img">
+                          <img src="http://mall.bydauto.com.cn/media/wysiwyg/1215/_237x255.jpg" class="" alt="...">
+                        </div>
+                        <div class="txt">东莞自驾游</div>
+                        <div class="date">2014-08-03</div>
+                        <a href="#" class="button button-fill button-wait">敬请期待</a>
+                      </div>
+                    </div></div>
+                </div>
+                                 
+                  
+                </div>
+              </div>
+
+              <div class="box2 box1 bdbottom">
+                <div class="hd bdbottom">站扎推荐</div>
+                 <div class="list-block media-list media-list-1">
+                      <ul>
+                        <li><a href="#" class="item-link item-content">
+                            <div class="item-media"><img src="http://www.dpfile.com/gp/cms/1439874789082.jpg"></div>
+                            <div class="item-inner">
+                              <div class="item-title-row">
+                                <div class="item-title">鲜香麻辣</div>
+                                <div class="item-after">$15</div>
+                              </div>
+                              <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
+                              <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
+                            </div></a></li>
+                        <li><a href="#" class="item-link item-content">
+                            <div class="item-media"><img src="http://www.dpfile.com/gp/cms/1439874789082.jpg"></div>
+                            <div class="item-inner">
+                              <div class="item-title-row">
+                                <div class="item-title">鲜香麻辣</div>
+                                <div class="item-after">$15</div>
+                              </div>
+                              <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
+                              <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
+                            </div></a></li>
+                          
+                      </ul>
+                    </div>
+              </div>
+
+              <div class="box2 box1 bdbottom">
+                              <div class="hd bdbottom">今日热单</div>
+                               <div class="list-block media-list media-list-1">
+                                    <ul>
+                                      <li><a href="#" class="item-link item-content">
+                                          <div class="item-media"><img src="http://j2.s2.dpfile.com/pc/e11360e0ed635a7b01c0cc68befc69d0(335c221)/thumb.jpg" alt="1906四川" title="1906四川"></div>
+                                          <div class="item-inner">
+                                            <div class="item-title-row">
+                                              <div class="item-title">鲜香麻辣</div>
+                                              <div class="item-after">$15</div>
+                                            </div>
+                                            <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
+                                            <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
+                                          </div></a></li>
+                                      <li><a href="#" class="item-link item-content">
+                                          <div class="item-media"><img src="http://j2.s2.dpfile.com/pc/e11360e0ed635a7b01c0cc68befc69d0(335c221)/thumb.jpg" alt="1906四川" title="1906四川"></div>
+                                          <div class="item-inner">
+                                            <div class="item-title-row">
+                                              <div class="item-title">鲜香麻辣</div>
+                                              <div class="item-after">$15</div>
+                                            </div>
+                                            <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
+                                            <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
+                                          </div></a></li>
+                                      <li><a href="#" class="item-link item-content">
+                                          <div class="item-media"><img src="http://j2.s2.dpfile.com/pc/e11360e0ed635a7b01c0cc68befc69d0(335c221)/thumb.jpg" alt="1906四川" title="1906四川"></div>
+                                          <div class="item-inner">
+                                            <div class="item-title-row">
+                                              <div class="item-title">鲜香麻辣</div>
+                                              <div class="item-after">$15</div>
+                                            </div>
+                                            <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
+                                            <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
+                                          </div></a></li>
+                                      <li><a href="#" class="item-link item-content">
+                                          <div class="item-media"><img src="http://j2.s2.dpfile.com/pc/e11360e0ed635a7b01c0cc68befc69d0(335c221)/thumb.jpg" alt="1906四川" title="1906四川"></div>
+                                          <div class="item-inner">
+                                            <div class="item-title-row">
+                                              <div class="item-title">鲜香麻辣</div>
+                                              <div class="item-after">$15</div>
+                                            </div>
+                                            <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
+                                            <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
+                                          </div></a></li>
+                                        
+                                    </ul>
+                                  </div>
+                            </div>
+
+
             </div>
+          </div>
+
+          <div class="footer">
+            <span class="boxfx">
+              <a href="#" class="item-link">首页</a></span>
+            <span class="boxfx">
+              <a href="#" class="item-link">团购</a></span>
+            <span class="boxfx">
+              <a href="#" class="item-link">找水疗</a></span>
+            <span class="boxfx">
+              <a href="#" class="item-link">我的</a></span>
           </div>
         </div>
       </div>

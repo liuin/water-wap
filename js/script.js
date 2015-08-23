@@ -787,3 +787,13 @@ function createContentPage() {
     return;
 }
 $$(document).on('click', '.ks-generate-page', createContentPage);
+
+
+/* ===== Infinite Scroll Page ===== */
+myApp.onPageInit('index', function (page) {
+ // fixjjh();
+});
+
+
+//var gettotto = 
+//$$('.list-jjh').width();
