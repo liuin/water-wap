@@ -20,6 +20,7 @@ var rightView = myApp.addView('.view-right', {
 $$(document).on('ajaxStart', function (e) {
     myApp.showIndicator();
 });
+
 $$(document).on('ajaxComplete', function () {
     myApp.hideIndicator();
 });
@@ -551,6 +552,38 @@ myApp.onPageInit('calendar', function (page) {
     });
 });
 
+/*-- area --*/
+myApp.onPageInit('area', function (page) {
+  
+})
+
+/*-- searchbar --*/
+myApp.onPageInit('searchbar', function (page) {
+  var mySearchbar = myApp.searchbar('.searchbar', {
+    searchList: '.search-here',
+    searchIn: '.button',
+    onSearch: function  () {
+      $$('.searchbar-input').addClass('active');
+      $$('.searchbar-input .button').show();
+    },
+    onDisable: function  () {
+      $$('.searchbar-input').removeClass('active');
+      $$('.searchbar-input .button').hide();
+    }
+  }); 
+  
+  $$('#searchbar-config').click(function  () {
+    var val = $$('.searchbar-input input').val();
+    var geturl = 'search-page.php?value=' + val;
+    mainView.router.load({
+      url : geturl
+    });
+  })
+
+})
+
+
+
 /* ===== Pickers ===== */
 myApp.onPageInit('pickers', function (page) {
     var today = new Date();
@@ -666,7 +699,7 @@ myApp.onPageInit('pickers', function (page) {
                 picker.cols[1].setValue(daysInMonth);
             }
         },
-        formatValue: function (p, values, displayValues) {
+        formfatValue: function (p, values, displayValues) {
             return displayValues[0] + ' ' + values[1] + ', ' + values[2] + ' ' + values[3] + ':' + values[4];
         },
         cols: [

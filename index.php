@@ -10,6 +10,7 @@
     <title>水汇网</title>
     <link rel="stylesheet" href="css/asset.css">
     <link rel="stylesheet" href="css/style.css">
+    
   </head>
   <body class="yh">
     <div class="statusbar-overlay"></div>
@@ -150,13 +151,159 @@
           <div data-page="index" class="page">
             <div class="navbar">
               <div class="navbar-inner">
-                <div class="center"><a class="logo" href="#">水汇网</a></div>
-                
-                <div class="right"><a href="searchbar.php" class="top-search"></a><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
+                <div class="center">
+                  <a class="top-area item-link" href="area.php"><?php 
+                    if(isset($_GET["area"])) {
+                      echo $_GET["area"]; 
+                      }
+                    else {
+                      echo '广州';
+                    }  
+                   ?></a>
+                  
+                </div>
+                <div class="top-search"><a href="search.php" class="item-link">搜索</a></div>
+                <div class="right">
+                  <div class="top-person"></div>
+                </div>
               </div>
             </div>
-            <div class="page-content">
-              
+            <div class="page-content">              
+              <div data-loop="true" data-pagination=".swiper-pagination-cate" data-paginationHide="true" class="swiper-container swiper-init ks-demo-slider cate-swpier bdbottom">
+                <div class="swiper-pagination swiper-pagination-cate"></div>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                  <div class="category">
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/food.png" />
+                    <span class="txt">美食</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/movie.png" />
+                    <span class="txt">电影</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/relax.png" />
+                    <span class="txt">休闲娱乐</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/beauty.png" />
+                    <span class="txt">丽人</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/grouponshan.png" />
+                    <span class="txt">闪惠团购</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/takeaway.png" />
+                    <span class="txt">外卖</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/eleconfig/20150602180637hotel.png" />
+                    <span class="txt">酒店</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/footer.png" />
+                    <span class="txt">足疗按摩</span>
+                                    </a>
+                    
+                    </div>              </div>
+                    <div class="swiper-slide">
+                  <div class="category">
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/food.png" />
+                    <span class="txt">美食</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/movie.png" />
+                    <span class="txt">电影</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/relax.png" />
+                    <span class="txt">休闲娱乐</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/beauty.png" />
+                    <span class="txt">丽人</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/grouponshan.png" />
+                    <span class="txt">闪惠团购</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/takeaway.png" />
+                    <span class="txt">外卖</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/eleconfig/20150602180637hotel.png" />
+                    <span class="txt">酒店</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/footer.png" />
+                    <span class="txt">足疗按摩</span>
+                                    </a>
+                    
+                    </div>              </div>
+                    <div class="swiper-slide">
+                  <div class="category">
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/food.png" />
+                    <span class="txt">美食</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/movie.png" />
+                    <span class="txt">电影</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/relax.png" />
+                    <span class="txt">休闲娱乐</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/beauty.png" />
+                    <span class="txt">丽人</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/grouponshan.png" />
+                    <span class="txt">闪惠团购</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/takeaway.png" />
+                    <span class="txt">外卖</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/eleconfig/20150602180637hotel.png" />
+                    <span class="txt">酒店</span>
+                                    </a>
+                                    <a href="#" class="item">
+                    <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/footer.png" />
+                    <span class="txt">足疗按摩</span>
+                                    </a>
+                    
+                    </div>              </div>
+
+
+                </div>
+              </div>
+
+<div data-loop="true" data-pagination=".swiper-pagination-c2" data-paginationHide="true" class="swiper-container swiper-init ks-demo-slider swiper-c2 bdbottom">
+                <div id="swiper-pagination1" class="swiper-pagination swiper-pagination-c2"></div>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#"><img src="http://mall.bydauto.com.cn/media/wysiwyg/20150721/720x246.jpg" width="100%" alt=""></a>
+                  </div>
+                    
+                  <div class="swiper-slide">
+                    <a href="#"><img src="http://mall.bydauto.com.cn/media/wysiwyg/20150721/720x246.jpg" width="100%" alt=""></a>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <a href="#"><img src="http://mall.bydauto.com.cn/media/wysiwyg/20150721/720x246.jpg" width="100%" alt=""></a>
+                  </div>
+
+
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
