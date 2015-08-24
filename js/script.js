@@ -798,5 +798,8 @@ myApp.onPageInit('pro-item', function (page) {
   
 })
 
-//var gettotto = 
-//$$('.list-jjh').width();
+//预加载某页
+var ajurl = 'pro-item.php';
+mainView.router.load({
+  url : ajurl
+});
