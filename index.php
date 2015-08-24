@@ -372,7 +372,7 @@
                 <div class="hd bdbottom">站扎推荐</div>
                  <div class="list-block media-list media-list-1">
                       <ul>
-                        <li><a href="#" class="item-link item-content">
+                        <li><a href="pro-item.php" class="item-link item-content">
                             <div class="item-media"><img src="http://www.dpfile.com/gp/cms/1439874789082.jpg"></div>
                             <div class="item-inner">
                               <div class="item-title-row">

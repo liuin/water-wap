@@ -794,6 +794,9 @@ myApp.onPageInit('index', function (page) {
  // fixjjh();
 });
 
+myApp.onPageInit('pro-item', function (page) {
+  
+})
 
 //var gettotto = 
 //$$('.list-jjh').width();
