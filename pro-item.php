@@ -7,8 +7,8 @@
   </div>
   <div class="page-content">
     <div class="proit-img">
-      <img width="100%" src="http://t3.s1.dpfile.com/pc/mc/b8980143c4aa6a9af0ef7a02149d7c67(450c280)/thumb.jpg">
-      <span class="proit-link-img"><a class="item-link" href="#">详细图片</a></span>
+      <a href="#" class="ks-pb-standalone"><img width="100%" src="http://t3.s1.dpfile.com/pc/mc/b8980143c4aa6a9af0ef7a02149d7c67(450c280)/thumb.jpg"></a>
+      <span class="proit-link-img"><a class="item-link ks-pb-standalone" href="#">点击查看详细图片</a></span>
     </div>
     <div class="row pro-item-price lyout-2 bdbottom">
       <div class="left col-50"><span class="proit-price"><span class="sp1">¥</span>90</span></div>
@@ -33,7 +33,7 @@
           </div>          
         </div>
         <div class="col-20">
-          <a href="tel:02031105622" class="tel-ly"><i class="moblie"></i></a>
+          <a href="tel:02031105622" class="external tel-ly"><i class="moblie"></i></a>
         </div>
       </div>
       

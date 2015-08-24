@@ -279,23 +279,18 @@ myApp.onPageInit('sortable-list', function (page) {
 // Create photoprobsers first:
 var photoBrowserPhotos = [
 	{
-		url: 'img/beach.jpg',
-		caption: 'Amazing beach in Goa, India'
+		url: 'http://i1.s1.dpfile.com/pc/ge/39cb0a22ab059a60c67125c86b4c7222(240c180)/thumb.jpg'
+		//caption: 'Amazing beach in Goa, India'
 	},
-    'http://placekitten.com/1024/1024',
-    'img/lock.jpg',
+    'http://i2.s1.dpfile.com/pc/ge/bdbd05765a24778934d49d1dca03ee04(240c180)/thumb.jpg',
     {
-        url: 'img/monkey.jpg',
-        caption: 'I met this monkey in Chinese mountains'
-    },
-    {
-        url: 'img/mountains.jpg',
-        caption: 'Beautiful mountains in Zhangjiajie, China'
+        url: 'http://i1.s1.dpfile.com/pc/ge/7e0b0bc48fee263ff724c8b9dab70913(240c180)/thumb.jpg'
     }
     
 ];
 var photoBrowserStandalone = myApp.photoBrowser({
-    photos: photoBrowserPhotos
+    photos: photoBrowserPhotos,
+    ofText:'/'
 });
 var photoBrowserPopup = myApp.photoBrowser({
     photos: photoBrowserPhotos,
@@ -795,7 +790,9 @@ myApp.onPageInit('index', function (page) {
 });
 
 myApp.onPageInit('pro-item', function (page) {
-  
+    $$('.ks-pb-standalone').on('click', function () {
+        photoBrowserStandalone.open();
+    });  
 })
 
 //预加载某页

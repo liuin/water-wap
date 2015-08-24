@@ -382,7 +382,7 @@
                               <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
                               <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
                             </div></a></li>
-                        <li><a href="#" class="item-link item-content">
+                        <li><a href="pro-item.php" class="item-link item-content">
                             <div class="item-media"><img src="http://www.dpfile.com/gp/cms/1439874789082.jpg"></div>
                             <div class="item-inner">
                               <div class="item-title-row">
@@ -401,7 +401,7 @@
                               <div class="hd bdbottom">今日热单</div>
                                <div class="list-block media-list media-list-1">
                                     <ul>
-                                      <li><a href="#" class="item-link item-content">
+                                      <li><a href="pro-item.php" class="item-link item-content">
                                           <div class="item-media"><img src="http://j2.s2.dpfile.com/pc/e11360e0ed635a7b01c0cc68befc69d0(335c221)/thumb.jpg" alt="1906四川" title="1906四川"></div>
                                           <div class="item-inner">
                                             <div class="item-title-row">
@@ -411,7 +411,7 @@
                                             <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
                                             <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
                                           </div></a></li>
-                                      <li><a href="#" class="item-link item-content">
+                                      <li><a href="pro-item.php" class="item-link item-content">
                                           <div class="item-media"><img src="http://j2.s2.dpfile.com/pc/e11360e0ed635a7b01c0cc68befc69d0(335c221)/thumb.jpg" alt="1906四川" title="1906四川"></div>
                                           <div class="item-inner">
                                             <div class="item-title-row">
@@ -421,7 +421,7 @@
                                             <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
                                             <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
                                           </div></a></li>
-                                      <li><a href="#" class="item-link item-content">
+                                      <li><a href="pro-item.php" class="item-link item-content">
                                           <div class="item-media"><img src="http://j2.s2.dpfile.com/pc/e11360e0ed635a7b01c0cc68befc69d0(335c221)/thumb.jpg" alt="1906四川" title="1906四川"></div>
                                           <div class="item-inner">
                                             <div class="item-title-row">
@@ -431,7 +431,7 @@
                                             <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
                                             <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
                                           </div></a></li>
-                                      <li><a href="#" class="item-link item-content">
+                                      <li><a href="pro-item.php" class="item-link item-content">
                                           <div class="item-media"><img src="http://j2.s2.dpfile.com/pc/e11360e0ed635a7b01c0cc68befc69d0(335c221)/thumb.jpg" alt="1906四川" title="1906四川"></div>
                                           <div class="item-inner">
                                             <div class="item-title-row">
@@ -452,7 +452,7 @@
 
           <div class="footer">
             <span class="boxfx">
-              <a href="#" class="item-link">首页</a></span>
+              <a href="index.php" class="item-link">首页</a></span>
             <span class="boxfx">
               <a href="#" class="item-link">团购</a></span>
             <span class="boxfx">
