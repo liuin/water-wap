@@ -23,14 +23,14 @@
         <span class="advantage-item"><i></i>过期自动退</span>
       </div>
     </div>
-    <div class="adress-bk bdbottom lyout-1">
+    <div class="adress-bk bdbottom lyout-1 list-block">
       <h3 class="title1 bdbottom">商家地址</h3> 
       <div class="row-box">
         <div class="col-80">               
-          <p class="p1">大学城外环西路374号大学城外环西路374号大学城外环西路374号</p>
-          <div class="tag">
-            <span class="distance">&gt;100km</span>
-          </div>          
+          <a href="pro-item-map.php" class="item-link"><p class="p1">大学城外环西路374号大学城外环西路374号大学城外环西路374号</p>
+            <div class="tag">
+              <span class="distance">&gt;100km</span>
+            </div></a>
         </div>
         <div class="col-20">
           <a href="tel:02031105622" class="external tel-ly"><i class="moblie"></i></a>
@@ -38,6 +38,16 @@
       </div>
       
     </div>
+    <div class="adress-bk pro-title list-block"><a href="pro-item-xq.html" class="item-link lyout-1">
+        <h3 class="title1">团购详情</h3>             
+    </a></div>
+    <div class="adress-bk pro-title list-block"><a href="pro-item-know.html" class="item-link lyout-1">
+        <h3 class="title1">买家须知</h3>             
+    </a></div>
+    <div class="adress-bk pro-title list-block"><a href="pro-item-pl.html" class="item-link lyout-1">
+        <h3 class="title1">会员评价</h3>             
+    </a></div>
+
     
   </div>
 </div>
