@@ -569,7 +569,6 @@ myApp.onPageInit('searchbar', function (page) {
   
   $$('#searchbar-config').click(function  () {
     var val = $$('.searchbar-input input').val();
-    alert('111222');
     var geturl = 'search-page.php?value=' + val;
     mainView.router.load({
       url : geturl

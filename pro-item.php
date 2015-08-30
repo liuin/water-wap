@@ -38,13 +38,13 @@
       </div>
       
     </div>
-    <div class="adress-bk pro-title list-block"><a href="pro-item-xq.html" class="item-link lyout-1">
+    <div class="adress-bk pro-title list-block"><a href="pro-item-xq.php" class="item-link lyout-1">
         <h3 class="title1">团购详情</h3>             
     </a></div>
-    <div class="adress-bk pro-title list-block"><a href="pro-item-know.html" class="item-link lyout-1">
+    <div class="adress-bk pro-title list-block"><a href="pro-item-know.php" class="item-link lyout-1">
         <h3 class="title1">买家须知</h3>             
     </a></div>
-    <div class="adress-bk pro-title list-block"><a href="pro-item-pl.html" class="item-link lyout-1">
+    <div class="adress-bk pro-title list-block"><a href="pro-item-pl.php" class="item-link lyout-1">
         <h3 class="title1">会员评价</h3>             
     </a></div>
 

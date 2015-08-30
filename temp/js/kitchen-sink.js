@@ -20,7 +20,6 @@ var rightView = myApp.addView('.view-right', {
 $$(document).on('ajaxStart', function (e) {
     myApp.showIndicator();
 });
-
 $$(document).on('ajaxComplete', function () {
     myApp.hideIndicator();
 });
@@ -279,18 +278,23 @@ myApp.onPageInit('sortable-list', function (page) {
 // Create photoprobsers first:
 var photoBrowserPhotos = [
 	{
-		url: 'http://i1.s1.dpfile.com/pc/ge/39cb0a22ab059a60c67125c86b4c7222(240c180)/thumb.jpg'
-		//caption: 'Amazing beach in Goa, India'
+		url: 'img/beach.jpg',
+		caption: 'Amazing beach in Goa, India'
 	},
-    'http://i2.s1.dpfile.com/pc/ge/bdbd05765a24778934d49d1dca03ee04(240c180)/thumb.jpg',
+    'http://placekitten.com/1024/1024',
+    'img/lock.jpg',
     {
-        url: 'http://i1.s1.dpfile.com/pc/ge/7e0b0bc48fee263ff724c8b9dab70913(240c180)/thumb.jpg'
+        url: 'img/monkey.jpg',
+        caption: 'I met this monkey in Chinese mountains'
+    },
+    {
+        url: 'img/mountains.jpg',
+        caption: 'Beautiful mountains in Zhangjiajie, China'
     }
     
 ];
 var photoBrowserStandalone = myApp.photoBrowser({
-    photos: photoBrowserPhotos,
-    ofText:'/'
+    photos: photoBrowserPhotos
 });
 var photoBrowserPopup = myApp.photoBrowser({
     photos: photoBrowserPhotos,
@@ -547,39 +551,6 @@ myApp.onPageInit('calendar', function (page) {
     });
 });
 
-/*-- area --*/
-myApp.onPageInit('area', function (page) {
-  
-})
-
-/*-- searchbar --*/
-myApp.onPageInit('searchbar', function (page) {
-  var mySearchbar = myApp.searchbar('.searchbar', {
-    searchList: '.search-here',
-    searchIn: '.button',
-    onSearch: function  () {
-      $$('.searchbar-input').addClass('active');
-      $$('.searchbar-input .button').show();
-    },
-    onDisable: function  () {
-      $$('.searchbar-input').removeClass('active');
-      $$('.searchbar-input .button').hide();
-    }
-  }); 
-  
-  $$('#searchbar-config').click(function  () {
-    var val = $$('.searchbar-input input').val();
-    alert('111222');
-    var geturl = 'search-page.php?value=' + val;
-    mainView.router.load({
-      url : geturl
-    });
-  })
-
-})
-
-
-
 /* ===== Pickers ===== */
 myApp.onPageInit('pickers', function (page) {
     var today = new Date();
@@ -695,7 +666,7 @@ myApp.onPageInit('pickers', function (page) {
                 picker.cols[1].setValue(daysInMonth);
             }
         },
-        formfatValue: function (p, values, displayValues) {
+        formatValue: function (p, values, displayValues) {
             return displayValues[0] + ' ' + values[1] + ', ' + values[2] + ' ' + values[3] + ':' + values[4];
         },
         cols: [
@@ -783,125 +754,3 @@ function createContentPage() {
     return;
 }
 $$(document).on('click', '.ks-generate-page', createContentPage);
-
-
-/* ===== Infinite Scroll Page ===== */
-myApp.onPageInit('index', function (page) {
- // fixjjh();
-});
-
-myApp.onPageInit('pro-item', function (page) {
-    $$('.ks-pb-standalone').on('click', function () {
-        photoBrowserStandalone.open();
-    });  
-})
-
-
-myApp.onPageInit('pro-map', function (page) {
-     /* ========================================================================
-  百度地图*/
-  +(function(){    
-      //创建和初始化地图函数：
-      function initMap(){
-          createMap();//创建地图
-          setMapEvent();//设置地图事件
-          addMapControl();//向地图添加控件
-          addMarker();//向地图中添加marker
-      }
-      
-      //创建地图函数：
-      function createMap(){
-          var map = new BMap.Map("bd-map1");//在百度地图容器中创建一个地图
-          var point = new BMap.Point(116.460054,39.922507);//定义一个中心点坐标
-          map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
-          window.map = map;//将map变量存储在全局
-      }
-      
-      //地图事件设置函数：
-      function setMapEvent(){
-          map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
-          map.enableScrollWheelZoom();//启用地图滚轮放大缩小
-          map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
-          map.enableKeyboard();//启用键盘上下左右键移动地图
-      }
-      
-      //地图控件添加函数：
-      function addMapControl(){
-          //向地图中添加缩放控件
-    var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
-    map.addControl(ctrl_nav);
-          //向地图中添加缩略图控件
-    var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
-    map.addControl(ctrl_ove);
-          //向地图中添加比例尺控件
-    var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
-    map.addControl(ctrl_sca);
-      }
-
-      //标注点数组
-      var markerArr = [{title:"北京市朝阳区光华路9号时尚大厦20层",content:"北京芭莎能量文化活动有限公司",point:"116.460054|39.922507",isOpen:1,icon:{w:23,h:25,l:69,t:21,x:9,lb:12}}
-       ];
-      //创建marker
-      function addMarker(){
-          for(var i=0;i<markerArr.length;i++){
-              var json = markerArr[i];
-              var p0 = json.point.split("|")[0];
-              var p1 = json.point.split("|")[1];
-              var point = new BMap.Point(p0,p1);
-        var iconImg = createIcon(json.icon);
-              var marker = new BMap.Marker(point,{icon:iconImg});
-        var iw = createInfoWindow(i);
-        var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
-        marker.setLabel(label);
-              map.addOverlay(marker);
-              label.setStyle({
-                          borderColor:"#808080",
-                          color:"#333",
-                          cursor:"pointer"
-              });
-        
-        (function(){
-          var index = i;
-          var _iw = createInfoWindow(i);
-          var _marker = marker;
-          _marker.addEventListener("click",function(){
-              this.openInfoWindow(_iw);
-            });
-            _iw.addEventListener("open",function(){
-              _marker.getLabel().hide();
-            })
-            _iw.addEventListener("close",function(){
-              _marker.getLabel().show();
-            })
-          label.addEventListener("click",function(){
-              _marker.openInfoWindow(_iw);
-            })
-          if(!!json.isOpen){
-            label.hide();
-            _marker.openInfoWindow(_iw);
-          }
-        })()
-          }
-      }
-      //创建InfoWindow
-      function createInfoWindow(i){
-          var json = markerArr[i];
-          var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
-          return iw;
-      }
-      //创建一个Icon
-      function createIcon(json){
-          var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
-          return icon;
-      }
-      
-      initMap();//创建和初始化地图
-
-  })(); 
-})
-
-//预加载某页
-var ajurl = 'pro-item.php';
-mainView.router.load({
-  url : ajurl
-});
