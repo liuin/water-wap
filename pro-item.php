@@ -12,7 +12,7 @@
     </div>
     <div class="row pro-item-price lyout-2 bdbottom">
       <div class="left col-50"><span class="proit-price"><span class="sp1">¥</span>90</span></div>
-      <div class="right col-50"><a href="" class="button button-fill button-raised color-orange">立刻购买 </a></div>
+      <div class="right col-50"><a href="pay.php" class="button button-fill button-raised color-orange">立刻购买 </a></div>
     </div>
     <div class="intro bdbottom lyout-1">
       <h3>老友记<span class="star"><span style="width:50%;"></span></span></h3>

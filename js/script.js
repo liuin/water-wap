@@ -795,6 +795,11 @@ myApp.onPageInit('pro-item', function (page) {
         photoBrowserStandalone.open();
     });  
 })
+myApp.onPageInit('jjp-item', function (page) {
+    $$('.ks-pb-standalone').on('click', function () {
+        photoBrowserStandalone.open();
+    });  
+})
 
 
 myApp.onPageInit('pro-map', function (page) {
@@ -901,7 +906,7 @@ myApp.onPageInit('pro-map', function (page) {
 })
 
 //预加载某页
-var ajurl = 'pro-item.php';
+var ajurl = 'login.php';
 mainView.router.load({
   url : ajurl
 });

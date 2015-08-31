@@ -4,7 +4,9 @@
 .bdtop {position:relative; overflow:hidden;}
 .bdtop:before {content:" "; height:1px; width:100%;     background-color: rgba(0,0,0,.12); position:absolute;top:0;left:0;}
 .title1 {padding-bottom:10px;}
+.ui-row {overflow:hidden;}
 .list-block {font-size:14px; margin:0;}
+.box1 {padding:10px 15px;}
 
 /*-- top-header --*/
 .navbar-fixed .page-content {padding-top:45px;padding-bottom: 45px;}
@@ -23,7 +25,7 @@ position:relative;overflow:hidden;
 
 .navbar .center {flex-shrink:0; margin-right:0; margin-left:0;}
 .center-t1 {box-flex:1;-moz-box-flex:1;-webkit-box-flex:1;text-align:center;padding-right:56px; font-size:16px;}
-.top-person {background: url("../images/person.png") right 0 no-repeat;width: 30px;height: 30px;background-size: 100px;margin-right: 16px;}
+.top-person {background: url("../images/person.png") right 0 no-repeat;width: 30px;height: 30px;background-size: 100px;margin-right: 16px; display:block;}
 .top-area {color: #fff;  position:relative; padding-right:20px; margin-right:0; height:45px; line-height:45px; display:inline-block; padding-left:16px;}
 .navbar .right {margin-left:0;    padding-top: 3px;}
 
@@ -70,6 +72,7 @@ position:relative;overflow:hidden;
 .list-block .item-content {box-flex:1;-moz-box-flex:1;-webkit-box-flex:1;width:100%;}
 
 .media-list-1{margin:0;}
+.media-list-1 .item-after {color:#f60;}
 .media-list-1 ul:before {display:none;}
 .media-list-1 .item-media {width:120px;}
 .media-list-1 .item-media img {border-radius:0; width:100%; max-width: inherit;}
@@ -127,6 +130,7 @@ display: -moz-box;-webkit-box-align: center;-moz-box-align:center;box-align: cen
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {padding: 8px;line-height: 1.42857143;vertical-align: top;border-top: 1px solid #ddd;}
 .table-striped tbody>tr:nth-of-type(odd) {background-color: #f9f9f9;}
 .table>tbody>tr>td.total-col-1 {text-align:right;padding-right:45px;}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {border: 1px solid #ddd;}
 
 /*-- purchase-notes --*/
 .purchase-notes { margin-left: 0;margin-right: 0;padding: 0;background: transparent;}
@@ -153,3 +157,81 @@ display: -moz-box;-webkit-box-align: center;-moz-box-align:center;box-align: cen
 .cumpj-tab-pane .preson-order-item .user{padding-bottom:10px;}
 
 #bd-map1 {height:100%; width:100%;}
+
+
+/*-- pay-content --*/
+.pay-content {background:#fff;}
+.pay-content h3 {padding: 15px;}
+.pay-price {padding: 5px 15px;margin-top: 12px;}
+.pay-price .sp1 {color:#f60;}
+.pay-list-block {}
+
+.bank-list .only-icon .alipay, .pay-method .chinabank {background-image:url("../images/bank.png");background-repeat:no-repeat}
+.bank-list .icon-box .icon {background-repeat: no-repeat;display: block;float: none;height: 30px;background-image:url("../images/bank.png");}
+.bank-list li {float: left;margin-bottom: 10px;display: inline;padding-left: 0;margin-right: 30px;width: 170px;}
+.bank-list .icon-box { background-color: #eee;border: 1px solid #ddd;display: inline-block;vertical-align: middle;width: 120px;padding: 0;height: 30px;position: relative;box-sizing: content-box;}
+.bank-list label {height: auto;padding: 0;width: auto;}
+.bank-list li input { vertical-align: middle;margin-top: 0;margin-right: 5px;}
+.panel-pay .panel-title {font-size:14px;}
+.panel-pay .panel-title a {display:block;}
+.panel-pay .panel-title .sp1 {font-size:12px; color:#999;}
+
+.panel-pay .panel-body {padding-bottom:0px;}
+
+.ICBCB2C, .ICBC {background-position:0 0;text-indent:-9999px}
+.CMB {background-position:0 -50px;text-indent:-9999px}
+.CCB {background-position:0 -100px;text-indent:-9999px}
+.BOCB2C, .BOC {background-position:0 -150px;text-indent:-9999px}
+.ABC {background-position:0 -200px;text-indent:-9999px}
+.COMM {background-position:0 -250px;text-indent:-9999px}
+.CEBBANK, .CEB {background-position:0 -300px;text-indent:-9999px}
+.SPDB {background-position:0 -350px;text-indent:-9999px}
+.GDB {background-position:0 -400px;text-indent:-9999px}
+.GDB-EXPRESS-CREDIT {background-position:0 -400px;text-indent:-9999px}
+.CITIC {background-position:0 -450px;text-indent:-9999px}
+.CIB {background-position:0 -500px;text-indent:-9999px}
+.SDB {background-position:0 -550px;text-indent:-9999px}
+.CMBC {background-position:0 -600px;text-indent:-9999px}
+.HZCBB2C {background-position:0 -650px;text-indent:-9999px}
+.ICBCBTB {background-position:0 -700px;text-indent:-9999px}
+.ABCBTB {background-position:0 -750px;text-indent:-9999px}
+.SPDBB2B {background-position:0 -800px;text-indent:-9999px}
+.alipay {background-position:0 -850px;text-indent:-9999px}
+.alipay-barcode {background-position:0 -1142px;text-indent:-9999px}
+.weixin-barcode {position:relative;background-position:0 -1188px}
+
+.pay-content .item-title .sp1{ font-size:12px; color:#999;}
+
+.pay-inputs-list {padding:15px;}
+.pay-inputs-list .item-inner{padding:0;}
+.pay-table {padding:0 15px;}
+
+.infor {text-align:right; padding: 15px;}
+.infor .item ,.infor .allprice{display:inline-block;}
+.infor .price {color:#f60; font-size:25px; font-weight:normal;}
+
+.pay-sub-btn {padding:0 15px;}
+
+.pay-info {padding:0 15px; font-size:12px; padding-top:15px;}
+.pay-info-row {margin-bottom:10px;}
+.pay-info h2 { font-size:13px; margin-bottom:5px;}
+.pay-info dl {margin:0;}
+.pay-info dt {font-weight:bold; margin-bottom:5px;}
+.pay-info dd {margin:0; margin-bottom:5px;}
+
+/*-- pay-success --*/
+.pay-suc-content {background:#fff;}
+.pay-success {padding-top:30px; padding-bottom:30px;  margin:0 auto;text-align: center; color: #3c763d;background-color: #dff0d8;border-color: #d6e9c6;}
+.pay-success .p2{ font-size:16px; margin-bottom:10px;}
+.pay-success .p2 .glyphicon {margin-right:10px;}
+.pay-success .alert-link {font-size:14px;}
+
+.pay-suc-row {padding:15px; background:#fff;}
+.jjh-des {padding-top:10px;padding-bottom:10px;}
+.jjh-row-box {margin-top:10px; border-top: 1px solid #ddd;}
+
+/*-- login-page --*/
+.login-page-content {background:#fff;}
+.login-page-content .content-block {margin: 12px 0;}
+.login-bk {padding:15px;}
+.login-row {padding-top:10px;font-size:13px; color:#333;}
