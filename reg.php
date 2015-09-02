@@ -1,13 +1,13 @@
-<div data-page="login" class="page">
+<div data-page="reg" class="page">
   <div class="navbar">
     <div class="navbar-inner">
       <div class="left"><a href="index.html" class="back link icon-only"><i class="icon icon-back"></i></a></div>
-      <div class="center-t1">登陆</div>
+      <div class="center-t1">注册</div>
     </div>
   </div>
   <div class="page-content login-page-content">
     <div class="content-block">
-      <h3>页面登陆</h3>
+      <h3>页面注册</h3>
     </div>
     <div class="list-block-login list-block inputs-list">
       <ul>
@@ -33,12 +33,22 @@
           </div>
         </div>
       </li>
+      <li>
+        <div class="item-content">
+          <div class="item-media"><i class="icon icon-form-password"></i></div>
+          <div class="item-inner"> 
+            <div class="item-title label">确认密码</div>
+            <div class="item-input item-input-field">
+              <input type="password" placeholder="再次输入密码" class="">
+            </div>
+          </div>
+        </div>
+      </li>
       </ul>
       <div class="login-bk">
-        <a href="#" class="button button-fill button-raised">登 陆</a>
+        <a href="#" class="button button-fill button-raised">注　册</a>
         <div class="login-row">
-          <p class="nozh fl"><a href="reg.php">没有账号?</a></p>
-          <p class="forpwd fr"><a href="forpwd.php">忘记密码?</a></p>
+          <p class="nozh fl"><a href="login.php">已有账号?</a></p>
         </div>
       </div>
 

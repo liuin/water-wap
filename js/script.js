@@ -906,7 +906,7 @@ myApp.onPageInit('pro-map', function (page) {
 })
 
 //预加载某页
-var ajurl = 'login.php';
+var ajurl = 'search-page.php';
 mainView.router.load({
   url : ajurl
 });
