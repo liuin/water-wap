@@ -60,35 +60,35 @@
                   <div class="swiper-slide">
                   <div class="category">
                     
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/food.png" />
                     <span class="txt">美食</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/movie.png" />
                     <span class="txt">电影</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/relax.png" />
                     <span class="txt">休闲娱乐</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/beauty.png" />
                     <span class="txt">丽人</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/grouponshan.png" />
                     <span class="txt">闪惠团购</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/takeaway.png" />
                     <span class="txt">外卖</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/eleconfig/20150602180637hotel.png" />
                     <span class="txt">酒店</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/footer.png" />
                     <span class="txt">足疗按摩</span>
                                     </a>
@@ -96,35 +96,35 @@
                     </div>              </div>
                     <div class="swiper-slide">
                   <div class="category">
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/food.png" />
                     <span class="txt">美食</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/movie.png" />
                     <span class="txt">电影</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/relax.png" />
                     <span class="txt">休闲娱乐</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/beauty.png" />
                     <span class="txt">丽人</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/grouponshan.png" />
                     <span class="txt">闪惠团购</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/takeaway.png" />
                     <span class="txt">外卖</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/eleconfig/20150602180637hotel.png" />
                     <span class="txt">酒店</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/footer.png" />
                     <span class="txt">足疗按摩</span>
                                     </a>
@@ -132,35 +132,35 @@
                     </div>              </div>
                     <div class="swiper-slide">
                   <div class="category">
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/food.png" />
                     <span class="txt">美食</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/movie.png" />
                     <span class="txt">电影</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/relax.png" />
                     <span class="txt">休闲娱乐</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/beauty.png" />
                     <span class="txt">丽人</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/grouponshan.png" />
                     <span class="txt">闪惠团购</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/takeaway.png" />
                     <span class="txt">外卖</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/eleconfig/20150602180637hotel.png" />
                     <span class="txt">酒店</span>
                                     </a>
-                                    <a href="#" class="item">
+                                    <a href="cate-list.php" class="item">
                     <img class="icon" src="http://m1.s1.dpfile.com/sc/api_res/mindex/indexicon/client/uis/7.5.0/footer.png" />
                     <span class="txt">足疗按摩</span>
                                     </a>
@@ -190,7 +190,7 @@
                 </div>
               </div>
 
-              <div class="box1 bdbottom">
+              <div class="box1 ">
                 <div class="hd bdbottom">活动结集号</div>
                 <div data-paginationHide="true" data-slidesPerView="4" data-grabCursor="true" class="swiper-container swiper-init ks-demo-slider swiper-c3">
                 <div class="swiper-wrapper">
@@ -252,7 +252,7 @@
                 </div>
               </div>
 
-              <div class="box2 box1 bdbottom">
+              <div class="box2 box1 ">
                 <div class="hd bdbottom">站扎推荐</div>
                  <div class="list-block media-list media-list-1">
                       <ul>
@@ -263,7 +263,7 @@
                                 <div class="item-title">鲜香麻辣</div>
                                 <div class="item-after">$15</div>
                               </div>
-                              <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
+                              <div class="item-subtitle"><span class="star"><span style="width:50%;"></span></span></div>
                               <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
                             </div></a></li>
                         <li><a href="pro-item.php" class="item-link item-content">
@@ -273,7 +273,7 @@
                                 <div class="item-title">鲜香麻辣</div>
                                 <div class="item-after">$15</div>
                               </div>
-                              <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
+                              <div class="item-subtitle"><span class="star"><span style="width:50%;"></span></span></div>
                               <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
                             </div></a></li>
                           
@@ -281,7 +281,7 @@
                     </div>
               </div>
 
-              <div class="box2 box1 bdbottom">
+              <div class="box2 box1 ">
                               <div class="hd bdbottom">今日热单</div>
                                <div class="list-block media-list media-list-1">
                                     <ul>
@@ -292,7 +292,7 @@
                                               <div class="item-title">鲜香麻辣</div>
                                               <div class="item-after">$15</div>
                                             </div>
-                                            <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
+                                            <div class="item-subtitle"><span class="star"><span style="width:50%;"></span></span></div>
                                             <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
                                           </div></a></li>
                                       <li><a href="pro-item.php" class="item-link item-content">
@@ -302,7 +302,7 @@
                                               <div class="item-title">鲜香麻辣</div>
                                               <div class="item-after">$15</div>
                                             </div>
-                                            <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
+                                            <div class="item-subtitle"><span class="star"><span style="width:50%;"></span></span></div>
                                             <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
                                           </div></a></li>
                                       <li><a href="pro-item.php" class="item-link item-content">
@@ -312,7 +312,7 @@
                                               <div class="item-title">鲜香麻辣</div>
                                               <div class="item-after">$15</div>
                                             </div>
-                                            <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
+                                            <div class="item-subtitle"><span class="star"><span style="width:50%;"></span></span></div>
                                             <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
                                           </div></a></li>
                                       <li><a href="pro-item.php" class="item-link item-content">
@@ -322,7 +322,7 @@
                                               <div class="item-title">鲜香麻辣</div>
                                               <div class="item-after">$15</div>
                                             </div>
-                                            <div class="item-subtitle">鲜香麻辣 街边那一碗传奇串串香</div>
+                                            <div class="item-subtitle"><span class="star"><span style="width:50%;"></span></span></div>
                                             <div class="item-text">红漆的矮方桌、小凳子，一锅红汤，和一大把一大把的竹签构成了一道特别风景。来自成都传奇小吃的串串香，口味麻辣鲜香，一锅红油涮着各种美味，真让人馋涎欲滴</div>
                                           </div></a></li>
                                         
@@ -338,11 +338,11 @@
             <span class="boxfx">
               <a href="index.php" class="item-link">首页</a></span>
             <span class="boxfx">
-              <a href="#" class="item-link">团购</a></span>
+              <a href="tuangou.php" class="item-link">团购</a></span>
             <span class="boxfx">
-              <a href="#" class="item-link">找水疗</a></span>
+              <a href="find.php" class="item-link">找水疗</a></span>
             <span class="boxfx">
-              <a href="#" class="item-link">我的</a></span>
+              <a href="my.php" class="item-link">我的</a></span>
           </div>
         </div>
       </div>

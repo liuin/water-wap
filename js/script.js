@@ -905,8 +905,77 @@ myApp.onPageInit('pro-map', function (page) {
   })(); 
 })
 
+
+/* ===== page-search ===== */
+myApp.onPageInit('search-page', function (page) {
+  //fixwidth
+  var getheight = ($(window).height() - $('.search-page-content .infinite-scroll').offset().top + 10);
+  $('.search-page-content .infinite-scroll').height(getheight);
+  // Loading trigger
+  var loading = false;
+  // Last loaded index, we need to pass it to script
+  var lastLoadedIndex = $$('.infinite-scroll ul li').length;
+  // Attach 'infinite' event handler
+
+  $$('.infinite-scroll').on('infinite', function () {
+      // Exit, if loading in progress
+      
+      if (loading) return;
+      // Set loading trigger
+      loading = true;
+      // Request some file with data
+      $$.get('infinite-scroll-load.php', {leftIndex: lastLoadedIndex + 1}, function (data) {
+          loading = false;
+          if (data === '') {
+              // Nothing more to load, detach infinite scroll events to prevent unnecessary loadings
+              myApp.detachInfiniteScroll($$('.infinite-scroll'));
+          }
+          else {
+              // Append loaded elements to list block
+              $$('.infinite-scroll > ul').append(data);
+              // Update last loaded index
+              lastLoadedIndex = $$('.infinite-scroll ul > li').length;
+          }
+      });
+  });
+});
+
+/* ===== page-find ===== */
+myApp.onPageInit('find-page', function (page) {
+  //fixwidth
+  var getheight = ($(window).height() - $('.search-page-content .infinite-scroll').offset().top + 10);
+  $('.search-page-content .infinite-scroll').height(getheight);
+  // Loading trigger
+  var loading = false;
+  // Last loaded index, we need to pass it to script
+  var lastLoadedIndex = $$('.infinite-scroll ul li').length;
+  // Attach 'infinite' event handler
+
+  $$('.infinite-scroll').on('infinite', function () {
+      // Exit, if loading in progress
+      
+      if (loading) return;
+      // Set loading trigger
+      loading = true;
+      // Request some file with data
+      $$.get('infinite-scroll-load-find.php', {leftIndex: lastLoadedIndex + 1}, function (data) {
+          loading = false;
+          if (data === '') {
+              // Nothing more to load, detach infinite scroll events to prevent unnecessary loadings
+              myApp.detachInfiniteScroll($$('.infinite-scroll'));
+          }
+          else {
+              // Append loaded elements to list block
+              $$('.infinite-scroll > ul').append(data);
+              // Update last loaded index
+              lastLoadedIndex = $$('.infinite-scroll ul > li').length;
+          }
+      });
+  });
+});
+
 //预加载某页
-var ajurl = 'search-page.php';
+var ajurl = 'my.php';
 mainView.router.load({
   url : ajurl
 });

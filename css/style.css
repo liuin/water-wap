@@ -6,7 +6,6 @@
 .title1 {padding-bottom:10px;}
 .ui-row {overflow:hidden;}
 .list-block {font-size:14px; margin:0;}
-.box1 {padding:10px 15px;}
 
 /*-- top-header --*/
 .navbar-fixed .page-content {padding-top:45px;padding-bottom: 45px;}
@@ -99,7 +98,7 @@ position:relative;overflow:hidden;
 .proit-price .sp1 {font-size:20px;}
 .lyout-2 {background:#fff;}
 .pro-item-price .right{padding-top:3px;}
-.pro-item-price .right .button {width: 100px;margin-left: auto;}
+.pro-item-price .right .button { width: 100px;margin-left: auto;float: right;margin-left: 10px;}
 
 .intro h3{color: #333; font-size:16px;}
 .lyout-1 {margin-bottom: 15px;background: #fff;padding: 10px 15px;}
@@ -245,9 +244,69 @@ display: -moz-box;-webkit-box-align: center;-moz-box-align:center;box-align: cen
 
 
 /*-- search-page-content --*/
-.search-page-content {}
+.search-page-content {overflow:hidden;}
 .search-t1 {font-size:16px; font-weight:normal;padding: 15px;}
 .search-t1 .sp1 {color:#f60;}
-.catebar {padding:0 15px; display:box;display: -webkit-box;display: -ms-flexbox;display: -moz-box;width:100%; box-sizing:border-box;}
-.catebar select {box-flex:1;-moz-box-flex:1;-webkit-box-flex:1; width:100%; display:block;}
+.catebar {padding:15px; display:box;display: -webkit-box;display: -ms-flexbox;display: -moz-box;width:100%; box-sizing:border-box;}
+.catebar select {box-flex:1;-moz-box-flex:1;-webkit-box-flex:1; width:100%; display:block; height: 25px;font-size:16px;  }
 .catebar select:nth-child(2) {margin:0 10px;}
+
+.search-page-row {background:#fff;padding: 0;}
+
+.infinite-scroll  {overflow:auto;}
+
+.longwait { font-size: 12px;color: #666;padding-left: 4px;position: relative;top: -1px;}
+
+/*-- my-page-content --*/
+.tabs-animated-wrap {height:auto;}
+.my-page-content .toolbar:not(.messagebar){top:0;     background-color: coral;}
+
+.my-navbar .top-search{ background: transparent;font-size: 16px;margin: 0 10px;opacity: 1;border: 0;text-align: center;}
+.my-navbar  .right{ margin-left: 0;padding-top: 3px;width: 46px;font-size: 15px;padding-left: 0px;}
+.my-navbar  .right a {color:#fff;display:block;}
+.my-page-content .content-block { margin: 0;padding: 0;}
+.my-page-content .pro-title h3  {font-weight:normal;}
+.my-page-content .pro-title h3 .sp1{ font-weight: normal;font-size: 14px;color: coral;}
+
+.yuer-bk {padding-top:10px;padding-bottom:10px;background: #fff;}
+.yuer-bk .title1 {padding-bottom:10px;font-weight:normal;padding-left:15px;padding-right:15px;}
+.yuer-bk .title1 .sp1 {color:coral;}
+.yuer-info {padding-top:10px; padding-bottom:10px;}
+.yuer-info h3 {font-weight:normal; padding-left: 15px;padding-right: 15px;padding-bottom: 10px;  font-size:14px;  }
+.yuer-info-table {margin:0 15px; border-left: 1px solid #ddd; border-right: 1px solid #ddd; margin-bottom:15px;border-bottom: 1px solid #ddd;}
+.yuer-info .table {   width: 100%;}
+.yuer-info .table th{}
+
+.yuer-about {padding: 10px 15px;}
+.yuer-about h2 {font-size:14px;margin-bottom:5px;}
+.yuer-about h4 {margin-bottom:5px;}
+.yuer-about p {margin-bottom:10px;}
+
+.bag-content-block {background: #fff;}
+
+.sc-list-block .button{margin: 0 15px; }
+.sc-list-block li {padding-bottom:10px;}
+
+/*-- order-list-block --*/
+.order-list-block {background:#fff;}
+.order-list-block .info {padding: 10px 15px;    padding-top: 0;  color:#757575;}
+.order-list-block .info p {margin-bottom:5px;}
+.order-list-block .info p .sp1 {margin-left:5px;}
+
+.oreder-btn-gorund {display:box;display: -webkit-box;display: -ms-flexbox;display: -moz-box;width:100%; -webkit-box-pack: left; -moz-box-pack: left; box-pack: left;}
+.oreder-btn-gorund a {margin:0 10px; width:120px;}
+
+.myset-page-content { margin: 0;margin-bottom: -12px;}
+
+.myset-page-content  .my-set-title { margin-bottom: -12px;padding-left: 15px;line-height:42px; height:40px; margin-top:0;}
+
+.myset-page-content .title1 .sp1{font-size:12px;color:coral;}
+
+.set-email-llist-block {background: #fff;}
+
+.val-email-btn { width: 100px;margin: 0 auto;margin-bottom: 10px;}
+.list-block-set li{padding-bottom:0px;}
+
+.list-block-set .item-inner:after{display:none !important;}
+
+.pl-info-title {font-size:14px;}

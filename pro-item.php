@@ -11,8 +11,8 @@
       <span class="proit-link-img"><a class="item-link ks-pb-standalone" href="#">点击查看详细图片</a></span>
     </div>
     <div class="row pro-item-price lyout-2 bdbottom">
-      <div class="left col-50"><span class="proit-price"><span class="sp1">¥</span>90</span></div>
-      <div class="right col-50"><a href="pay.php" class="button button-fill button-raised color-orange">立刻购买 </a></div>
+      <div class="left col-20"><span class="proit-price"><span class="sp1">¥</span>90</span></div>
+      <div class="right col-80"><a href="pay.php" class="button button-fill button-raised color-orange">立刻购买 </a><a href="#" class="button button-fill button-raised color-green">加入收藏</a></div>
     </div>
     <div class="intro bdbottom lyout-1">
       <h3>老友记<span class="star"><span style="width:50%;"></span></span></h3>

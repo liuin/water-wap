@@ -7,7 +7,7 @@
   </div>
   <div class="page-content login-page-content">
     <div class="content-block">
-      <h3>页面注册</h3>
+      <h3>我要注册</h3>
     </div>
     <div class="list-block-login list-block inputs-list">
       <ul>
