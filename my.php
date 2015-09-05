@@ -40,7 +40,7 @@
               <h3 class="title1">账号设置</h3>             
             </a></div>
             <div class="adress-bk pro-title list-block"><a href="biz.php" class="item-link lyout-1">
-              <h3 class="title1">我是商家</h3>             
+              <h3 class="title1">我是商家</h3>
             </a></div>
           </div>
         </div><!-- /我的钱包 -->

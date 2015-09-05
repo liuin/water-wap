@@ -974,8 +974,12 @@ myApp.onPageInit('find-page', function (page) {
   });
 });
 
+
+
+
 //预加载某页
-var ajurl = 'my.php';
+var ajurl = 'biz.php';
 mainView.router.load({
   url : ajurl
 });
+
