@@ -2,7 +2,7 @@
   <div class="navbar">
     <div class="navbar-inner">
       <div class="left"><a href="swiper.html" class="back link icon-only"><i class="icon icon-back"></i></a></div>
-      <div class="center">买家须知</div>
+      <div class="center">商家地址</div>
     </div>
   </div>
   <div class="page-content">

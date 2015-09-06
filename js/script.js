@@ -978,8 +978,8 @@ myApp.onPageInit('find-page', function (page) {
 
 
 //预加载某页
-var ajurl = 'biz.php';
-mainView.router.load({
-  url : ajurl
-});
+//var ajurl = 'index.php';
+//mainView.router.load({
+//  url : ajurl
+//});
 

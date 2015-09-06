@@ -65,6 +65,7 @@
                                             <p class="p1">感觉上没有太古汇附近那间好，价钱也比那间贵，烤羊排竟然烤焦了，环境也吵，一般般吧。</p>
                                             <div class="oreder-btn-gorund">
                                               <a href="#" class="button button-fill color-indigo button-raised">删除</a>
+                                              <a href="#" class="button button-fill color-red button-raised">删除</a>
                                             </div>
                                           </div>
                                           </li>

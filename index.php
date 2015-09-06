@@ -53,7 +53,7 @@
                 </div>
               </div>
             </div>
-            <div class="page-content">              
+            <div class="page-content index-page-content">              
               <div data-loop="true" data-pagination=".swiper-pagination-cate" data-paginationHide="true" class="swiper-container swiper-init ks-demo-slider cate-swpier bdbottom">
                 <div class="swiper-pagination swiper-pagination-cate"></div>
                 <div class="swiper-wrapper">
@@ -348,7 +348,7 @@
       </div>
     </div>
     <script type="text/javascript" src="js/asset.js"></script>
-    <!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script> -->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
