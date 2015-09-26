@@ -1,4 +1,4 @@
-<div data-page="search-page" class="page">
+<div data-page="catelist-page" class="page">
   <div class="navbar">
     <div class="navbar-inner">
       <div class="left"><a href="swiper.html" class="back link icon-only"><i class="icon icon-back"></i></a></div>
@@ -10,8 +10,8 @@
       <div class="catebar bdbottom">
         <div class="select-moban">
           <h2 class="current">分类</h2>
-         <div class="select-moban-bk">
-            <a href="#" class="item">全部分类 <i class="selected"></i></a>
+         <div class="select-moban-bk select-moban-bk1 none">
+            <a href="#" class="item selected">全部分类 <i class="selected"></i></a>
             <a href="#" class="item">中餐 <i ></i></a>
             <a href="#" class="item">中餐 <i ></i></a>
             <a href="#" class="item">中餐 <i ></i></a>
@@ -29,35 +29,68 @@
         </div>
         <div class="select-moban">
           <h2 class="current">全城</h2>
-          <div class="block-side">
-            <a href="#">附近</a>
-            <a href="#">区域</a>
-          </div>
-          <div class="block-right-bk">
-            <div class="block-wrap-fj block-wrap">
-              <a href="#" class="item">1km <i class="selected"></i></a>
-              <a href="#" class="item">3km <i ></i></a>
-              <a href="#" class="item">5km <i ></i></a>
-              <a href="#" class="item">10km <i ></i></a>
-            </div>            
-            <div class="block-wrap-qy block-wrap">
-              <a href="#" class="item">全城 <i ></i></a>
-              <a href="#" class="item">黄浦区 <i ></i></a>
-              <a href="#" class="item">黄浦区 <i ></i></a>
-              <a href="#" class="item">黄浦区 <i ></i></a>
-              <a href="#" class="item">黄浦区 <i ></i></a>
-              <a href="#" class="item">黄浦区 <i ></i></a>
-              <a href="#" class="item">黄浦区 <i ></i></a>
-              <a href="#" class="item">黄浦区 <i ></i></a>
-              <a href="#" class="item">黄浦区 <i ></i></a>
-            </div>            
+          <div class="select-moban-bk select-moban-bk2 none">
+            <div class="block-side">
+              <a href="#" class="active">附近</a>
+              <a href="#">区域</a>
+            </div>
+            <div class="block-right-bk">
+              <div class="block-wrap-fj block-wrap">
+                <a href="#" class="item">1km <i class="selected"></i></a>
+                <a href="#" class="item">3km <i ></i></a>
+                <a href="#" class="item">5km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+                <a href="#" class="item">10km <i ></i></a>
+              </div>            
+              <div class="block-wrap-qy block-wrap none">
+                <a href="#" class="item">全城 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+                <a href="#" class="item">黄浦区 <i ></i></a>
+              </div>            
+            </div>
           </div>
 
         </div>
 
         <div class="select-moban">
           <h2 class="current">排序</h2>
-         <div class="select-moban-bk">
+         <div class="select-moban-bk select-moban-bk3 none">
             <a href="#" class="item">排序 <i class="selected"></i></a>
             <a href="#" class="item">智能 <i ></i></a>
             <a href="#" class="item">折扣最大 <i ></i></a>

@@ -347,6 +347,7 @@
         </div>
       </div>
     </div>
+    <span class="preloader"></span>
     <script type="text/javascript" src="js/asset.js"></script>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>
     <script type="text/javascript" src="js/script.js"></script>
