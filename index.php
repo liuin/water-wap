@@ -10,6 +10,7 @@
     <meta name="theme-color" content="#2196f3">
     <title>水汇网</title>
     <link rel="stylesheet" href="css/asset.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     
   </head>
@@ -336,13 +337,13 @@
 
           <div class="footer">
             <span class="boxfx">
-              <a href="index.php" class="item-link">首页</a></span>
+              <a href="index.php" class="item-link current"><i class="fa fa-home"></i><br />首页</a></span>
             <span class="boxfx">
-              <a href="tuangou.php" class="item-link">团购</a></span>
+              <a href="tuangou.php" class="item-link"><i class="fa fa-shopping-bag"></i><br />团购</a></span>
             <span class="boxfx">
-              <a href="find.php" class="item-link">找水疗</a></span>
+              <a href="find.php" class="item-link"><i class="fa fa-shopping-basket"></i><br />找水疗</a></span>
             <span class="boxfx">
-              <a href="my.php" class="item-link">我的</a></span>
+              <a href="my.php" class="item-link"><i class="fa fa-user"></i><br />我的</a></span>
           </div>
         </div>
       </div>

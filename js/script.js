@@ -1036,6 +1036,36 @@ myApp.onPageInit('catelist-page', function (page) {
 //预加载某页
 var ajurl = 'cate-list.php';
 mainView.router.load({
-  url : ajurl
+ // url : ajurl
 });
 
+
+myApp.onPageBeforeAnimation('index', function (page) {
+ // fixjjh();
+  removeStatc(0);
+});
+
+myApp.onPageBeforeAnimation('search-page', function (page) {
+ // fixjjh();
+  removeStatc(1);
+});
+
+myApp.onPageBeforeAnimation('find-page', function (page) {
+ // fixjjh();
+  removeStatc(2);
+});
+
+myApp.onPageBeforeAnimation('tabs', function (page) {
+ // fixjjh();
+  removeStatc(3);
+});
+
+function removeStatc (n) {
+  $('.navbar-fixed a').removeClass('current');
+  $('.navbar-fixed .boxfx').eq(n).find('a').addClass('current');
+}
+
+//底部状态
+//$('.navbar-fixed a').on('click tap',function  () {
+//  $(this).addClass('current').parents().siblings().find('a').removeClass('current');
+//})
