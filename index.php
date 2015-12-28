@@ -191,8 +191,21 @@
                 </div>
               </div>
 
-              <div class="box1 ">
+              <div class="box1 box1-home">
                 <div class="hd bdbottom">活动结集号</div>
+
+
+                <div class="start-bk-home start-bk">
+                  <div class="time-count">
+                    <span class="start fl"></span>
+                    <span class="lb2 fl"></span> <!-- / lb1 距开始样式， lb2 进行中样式 -->
+                    <div class="fl counttime"  countTime="2015/11/12 14:40:53,2015/11/15 11:00:00">
+                      <span class="c-day" countDay ></span>天<span class="sp1"></span><span class="c-hour" countHour ></span>时<span class="sp1"></span><span class="c-min" countMin ></span>分<span class="sp1"></span><span class="c-sec" countSec ></span>秒
+                    </div>
+                  </div>
+                </div>
+
+
                 <div data-paginationHide="true" data-slidesPerView="4" data-grabCursor="true" class="swiper-container swiper-init ks-demo-slider swiper-c3">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide "><div class="list-jjh">
@@ -339,9 +352,9 @@
             <span class="boxfx">
               <a href="index.php" class="item-link current"><i class="fa fa-home"></i><br />首页</a></span>
             <span class="boxfx">
-              <a href="tuangou.php" class="item-link"><i class="fa fa-shopping-bag"></i><br />团购</a></span>
+              <a href="cate-list.php" class="item-link"><i class="fa fa-shopping-bag"></i><br />团购</a></span>
             <span class="boxfx">
-              <a href="find.php" class="item-link"><i class="fa fa-shopping-basket"></i><br />找水疗</a></span>
+              <a href="cate-list.php" class="item-link"><i class="fa fa-shopping-basket"></i><br />找水疗</a></span>
             <span class="boxfx">
               <a href="my.php" class="item-link"><i class="fa fa-user"></i><br />我的</a></span>
           </div>

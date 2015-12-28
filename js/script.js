@@ -22,6 +22,9 @@ $$(document).on('ajaxStart', function (e) {
 });
 
 
+
+
+
 $$(document).on('ajaxComplete', function () {
     myApp.hideIndicator();
 });
@@ -788,6 +791,7 @@ $$(document).on('click', '.ks-generate-page', createContentPage);
 /* ===== Infinite Scroll Page ===== */
 myApp.onPageInit('index', function (page) {
  // fixjjh();
+
 });
 
 myApp.onPageInit('pro-item', function (page) {
@@ -1043,6 +1047,7 @@ mainView.router.load({
 myApp.onPageBeforeAnimation('index', function (page) {
  // fixjjh();
   removeStatc(0);
+  $$.countTime();
 });
 
 myApp.onPageBeforeAnimation('search-page', function (page) {
@@ -1064,6 +1069,129 @@ function removeStatc (n) {
   $('.navbar-fixed a').removeClass('current');
   $('.navbar-fixed .boxfx').eq(n).find('a').addClass('current');
 }
+
+/*-- 
+  anchor:cuki13
+  countTime = "startTime endTime"
+  bydtime:
+  var startTime = new Date("<?php date_default_timezone_set('Asia/Shanghai'); echo date('Y/m/d H:i:s'); ?>").getTime();
+  var endTime = new Date("<?=str_replace('-', '/', $btime)?>").getTime();
+
+  exmaple:
+  <div class="counttime" countTime="2015/05/14 14:40:53,2015/05/08 11:00:00">
+    <span countDay ></span>
+    <span countHour ></span>
+    <span countMin ></span>
+    <span countSec ></span>
+  </div>
+
+  use:
+ --*/
+
++(function() {
+  'use strict';
+
+  var selectString = '[countTime]';
+
+  function CountTime (startTime,endTime,obj) {
+    this.startTime = startTime;
+    this.endTime = endTime;
+    this.sbTime = Math.floor((this.endTime - this.startTime) / 1e3);
+ 
+    this.second = obj.find('[countSec]');
+    this.minite = obj.find('[countMin]');
+    this.hour = obj.find('[countHour]');
+    this.day = obj.find('[countDay]');
+    this.el = obj;
+  }
+
+  CountTime.prototype.countPro = function  () {
+    
+    this.el.trigger('countPro');
+    var getSbTime = this.sbTime;
+    this.second.html(checkSimple(Math.floor(getSbTime % 60)));
+    this.minite.html(checkSimple(Math.floor(getSbTime / 60 % 60)));
+    this.hour.html(checkSimple(Math.floor(getSbTime / 3600 % 24)));
+    this.day.html(checkSimple(Math.floor(getSbTime / 3600 / 24)));
+    
+    /*
+    if (this.el.is(':hidden')) {
+      this.el.show();
+    }
+    */
+
+    if (this.sbTime == 0) {
+      this.el.trigger('countEnd');
+    }
+    this.sbTime--;
+    
+
+  }
+
+  function checkSimple (num) {
+    num = num.toString();
+    
+    
+    if (num.length < 2) {
+      num = '<span class="num-ib">0</span>' + '<span class="num-ib">' + num + '</span>';
+    }else {
+      var arry = '';
+      for (var i = 0;  i<num.length ; i++) {
+        arry += '<span class="num-ib">' + num.charAt(i) + '</span>';
+      }  
+      num = arry;
+    }
+
+    
+    return num
+  }
+
+  CountTime.prototype.end = function  () {
+    this.el.trigger('countEnd');
+    this.second.html(0);
+    this.minite.html(0);
+    this.hour.html(0);
+    this.day.html(0);
+  }
+
+  CountTime.prototype.init = function  () {
+    if (this.sbTime <= 0) {
+      this.end();
+    }else {
+      var $this = this;
+      setInterval(
+        function(){
+          $this.countPro();        
+        },1e3
+      )
+    }
+  }
+  
+
+  $$.countTime = function  () {
+    $$(selectString).each(function () {
+      if ($$(this).data('countTime') == true) {
+        return false;
+      }
+      var attrpro = $$(this).attr('countTime').split(',');
+      for (var i = 0;  i<attrpro.length ; i++) {
+        if (attrpro[i] == 'now') {
+          attrpro[i] = new Date().getTime();
+        }else {
+          attrpro[i] = new Date(attrpro[i]).getTime();
+        }
+      }
+
+      $$(this).data('countTime',true);
+     
+      var timmer = new CountTime(attrpro[0],attrpro[1],$$(this));
+      timmer.init();
+    })    
+  }
+
+  $$.countTime();
+
+})();
 
 //底部状态
 //$('.navbar-fixed a').on('click tap',function  () {

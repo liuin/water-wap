@@ -421,3 +421,20 @@ label.label-radio input[type=radio]:checked+.item-media+.item-inner .item-title 
 .biz-subnb table .button{width: 75px;line-height: 30px;height: 30px;margin: 0 auto;}
 .biz-subnb table td.label-ck {padding:0;}
 .biz-subnb table .label-checkbox {display: block;padding-top: 10px;padding-bottom: 10px;overflow: hidden;}
+
+
+/*-- time-count --*/
+.box1-home {position:relative;}
+.start-bk-home {position: absolute;top: -4px;width: 288px;left: 88px;}
+.start-bk .time-count{    margin-left: 0; font-size: 14px;}
+.start-bk .time-count .start { background: url("../images/water.png") 1px -317px no-repeat;display: inline-block;width: 41px;height: 45px;}
+.start-bk .time-count .lb1 { background: url("../images/water.png") 4px -374px no-repeat;width: 59px;height: 32px;margin-top: 8px;    margin-right: 5px;}
+.start-bk .time-count .lb2 {background: url("../images/water.png") 4px -468px no-repeat;width: 53px;height: 32px;margin-top: 8px;margin-right: 5px;margin-left: -5px;}
+.start-bk .time-count .num-ib {  display:inline-block;background:#000; color: #fff; font-size: 16px;  }
+.start-bk .time-count .counttime {position: relative;top: 13px;}
+.time-count .c-day {margin-right: 2px; padding:0 2px; display:inline-block; background:#000; border-radius:3px; overflow:hidden; vertical-align: bottom;}
+.time-count .c-hour {margin-right: 2px; padding:0 2px; display:inline-block; background:#000; border-radius:3px; overflow:hidden; vertical-align: bottom;}
+.time-count .c-min {margin-right: 2px; padding:0 2px; display:inline-block; background:#000; border-radius:3px;overflow:hidden; vertical-align: bottom;}
+.time-count .c-sec {margin-right: 2px; padding:0 2px; display:inline-block; background:#000; border-radius:3px;overflow:hidden; vertical-align: bottom;}
+
+.start-bk .time-count .sp1 {background: url("../images/water.png") 1px -360px no-repeat;display: inline-block;width: 4px;height: 16px; margin: 0 3px; font-size: 14px;}
