@@ -292,6 +292,9 @@ var photoBrowserPhotos = [
     }
     
 ];
+
+
+
 var photoBrowserStandalone = myApp.photoBrowser({
     photos: photoBrowserPhotos,
     ofText:'/'
@@ -1038,9 +1041,9 @@ myApp.onPageInit('catelist-page', function (page) {
 
 
 //预加载某页
-var ajurl = 'cate-list.php';
+var ajurl = 'pro-biz.php';
 mainView.router.load({
- // url : ajurl
+  url : ajurl
 });
 
 
@@ -1197,3 +1200,27 @@ function removeStatc (n) {
 //$('.navbar-fixed a').on('click tap',function  () {
 //  $(this).addClass('current').parents().siblings().find('a').removeClass('current');
 //})
+
+/*-- pro-biz --*/
+
+var photoBrowserBiz = [
+	{
+		url: 'http://p1.meituan.net/460.280/deal/__12191486__6202212.jpg'
+		//caption: 'Amazing beach in Goa, India'
+	},
+    {
+        url: 'http://i1.s1.dpfile.com/pc/ge/7e0b0bc48fee263ff724c8b9dab70913(240c180)/thumb.jpg'
+    }
+    
+];
+
+var photoBrowserStandalone = myApp.photoBrowser({
+    photos: photoBrowserBiz,
+    ofText:'/'
+});
+
+myApp.onPageInit('pro-biz', function (page) {
+    $$('.ks-pb-standalone').on('click', function () {
+        photoBrowserStandalone.open();
+    });  
+})
