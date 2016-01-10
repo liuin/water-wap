@@ -344,9 +344,13 @@
                                   </div>
                             </div>
 
-
+                  <div class="web-mode">
+                    <a href="#" class="pc left">电脑版</a><a href="#" class="mob current right">手机版</a>
+                  </div>
             </div>
           </div>
+
+          
 
           <div class="footer">
             <span class="boxfx">

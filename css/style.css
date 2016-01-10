@@ -483,3 +483,10 @@ a.share-qqweibo.J_qqweibo-share {background-position: -49px 0;}
 
 .oterase {margin-left: 10px;  }
 .oterase a {color: #666;}
+
+/*-- web-mode --*/
+.web-mode {text-align:center; padding-bottom: 15px;}
+.web-mode a {display:inline-block; width: 100px; line-height: 30px; text-align:center; border-radius:5px; background:#999; color: #fff;}
+.web-mode a.current {background:#2196f3;}
+.web-mode a.left {border-radius:5px 0 0 5px;}
+.web-mode a.right {border-radius:0px 5px 5px 0px;}

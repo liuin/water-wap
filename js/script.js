@@ -1043,7 +1043,7 @@ myApp.onPageInit('catelist-page', function (page) {
 //预加载某页
 var ajurl = 'pro-biz.php';
 mainView.router.load({
-  url : ajurl
+  //url : ajurl
 });
 
 
